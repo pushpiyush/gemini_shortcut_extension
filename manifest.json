@@ -1,0 +1,12 @@
+{
+    "name": "Gemini Shortcut",
+    "description": "Add shortcut to Gemini: (/) to autofocus the text area and (esc) to remove focus from the text area.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://gemini.google.com/*"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}
